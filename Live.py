@@ -44,3 +44,12 @@ def load_game():
     else:
         print("Nope")
 
+
+
+  if result['success']:
+            # Call add_score function to add the new score to Scores.txt
+            new_score = add_score(chosen_difficulty)
+            if new_score != -1:
+                print(f"Congratulations! Your new score is: {new_score}")
+            else:
+                print("Failed to update the score.")

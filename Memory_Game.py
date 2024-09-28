@@ -5,7 +5,8 @@ difficulty = 5
 
 
 def generate_sequence(random_sequence):
-    random_sequence = [random.randint(1,101) for _  in range(difficulty)]
+    random_sequence = [random.randint(1,101)
+                       for _  in range(difficulty)]
     print(f"Remember the sequence:{random_sequence}")
     sleep(0.7)
     return random_sequence
