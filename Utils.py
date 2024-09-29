@@ -1,6 +1,6 @@
 import os
 
-SCORES_FILE_NAME =
+SCORES_FILE_NAME = "Scores.py"
 BAD_RETURN_CODE = -1
 
 
